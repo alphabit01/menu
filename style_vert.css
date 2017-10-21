@@ -1,0 +1,63 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{
+	/*outline: 1px solid red;*/
+	width: 200px;
+}
+ul{
+	/*outline: 1px solid orange;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 25px;
+
+}
+
+li{
+	/*outline: 1px solid gold;*/
+	background-color: whitesmoke;
+}
+
+/* Los estados de los enlaces:
+Link
+Visited
+Hover
+Active
+
+Para trabajar con los cuatro estilos, se debe mantener el orden
+
+LoVe/HaTe
+*/
+
+
+a{
+	/*utline: 1px solid goldenrod;*/
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-left: 15px;
+}
+
+
+a:hover{
+	background: gray;
+}
+
+ul li:first-child{
+	background: #f9a91a; 
+}
+
+ul li:first-child a{
+	color: white;
+}
+
+ul li:first-child a:active{
+	color: black;
+}
+
+a:active{
+	background: slategray; /*Me parece que no funciona*/
+	color: white;
+}
